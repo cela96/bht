@@ -1,8 +1,19 @@
-# DESCRIPTION
-bht is a script to help with bulk hdd testing using badblocks. when you need to fully test 24 or 48 or whatever number of hard drives at the same time with badblocks, bht makes this easy by launching multiple instances of badblocks in the background. you can periodically check on the status of all running instances of badblocks. you can even leave an email address so that when an instance of badblocks is done, you can receive an email notice with the results.
+# Description
+bht is script to help with bulk hdd testing using badblocks. When you need to fully test many hard drives at the same time with badblocks, bht makes this easy by launching multiple instances of badblocks in the background. You can periodically check on the status of all running instances of badblocks. You can even leave an email address so that when an instance of badblocks is done, you can receive an email notice with the results.
 
-# REQUIREMENTS
-i wrote bht on Linux with ksh93, so it requires the following to run:
+# Installation
+
+Download and execute the installation script. Answer the questions asked by the script and it will take care of the rest.
+
+```bash
+curl -O https://raw.githubusercontent.com/cela96/bht/master/bht-installation-script-ubuntu.sh
+chmod +x bht-installation-script-ubuntu.sh
+./bht-installation-script-ubuntu.sh
+```
+
+# Prerequirements
+The prerequisites will be installed automatically with installation script.
+The script is wrote on Linux with ksh93, so it requires the following to run:
 
 - ksh93
 - smartctl
