@@ -12,8 +12,8 @@ while true; do
     esac
 done
 
-sudo apt install curl ksh smartctl badblocks lsscsi -y
+sudo apt install curl ksh smartmontools lsscsi -y
 
 curl -O https://raw.githubusercontent.com/cela96/bht/master/bht
 
-sudo mv ~/bht /usr/local/bin/bht
+sudo mv ~/bht /bin/bht

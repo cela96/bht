@@ -6,7 +6,7 @@ bht is script to help with bulk hdd testing using badblocks. When you need to fu
 Download and execute the installation script. Answer the questions asked by the script and it will take care of the rest.
 
 ```bash
-curl -O https://raw.githubusercontent.com/cela96/bht/master/bht-installation-script-ubuntu.sh
+wget https://raw.githubusercontent.com/cela96/bht/develop-totest/bht-installation-script-ubuntu.sh
 chmod +x bht-installation-script-ubuntu.sh
 ./bht-installation-script-ubuntu.sh
 ```
