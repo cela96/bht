@@ -13,7 +13,9 @@ while true; do
 done
 
 sudo apt install curl ksh smartmontools lsscsi -y
+sudo apt install lvm2 -y
 
 curl -O https://raw.githubusercontent.com/cela96/bht/master/bht
 
 sudo mv ~/bht /bin/bht
+sudo chmod +x /bin/bht
