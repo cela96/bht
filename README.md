@@ -1,6 +1,12 @@
 # Description
 bht is script to help with bulk hdd testing using badblocks. When you need to fully test many hard drives at the same time with badblocks, bht makes this easy by launching multiple instances of badblocks in the background. You can periodically check on the status of all running instances of badblocks. You can even leave an email address so that when an instance of badblocks is done, you can receive an email notice with the results.
 
+Use this command if you would like to test every disk manually.
+
+```
+badblocks -wsv /dev/sdX
+```
+
 # Installation
 
 Download and execute the installation script. Answer the questions asked by the script and it will take care of the rest.
